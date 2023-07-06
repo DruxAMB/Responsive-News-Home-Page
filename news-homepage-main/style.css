@@ -1,0 +1,354 @@
+body {
+    padding: 12vh 25vh;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+  }
+  
+  #nav-menu {
+    background-color: white;
+    height: 6vh;
+  }
+  
+  #nav-icon {
+    display: none;
+   }
+
+  .right-nav {
+    float: right;
+    padding: 1.5vh 0;
+  }
+  
+  .right-nav a {
+    text-decoration: none;
+    color: #9b9aa1;
+    padding: 0 3vh;
+  }
+  
+  .right-nav a:hover {
+    color: #f15d53;
+  }
+  
+  #section {
+    position: relative;
+    padding-top: 8vh;
+    height: 71vh;
+  }
+  
+  #main-section {
+    width: 100vh;
+    position: relative;
+    height: 71vh;
+  }
+  
+  #main-section .img {
+    background-image: url(assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    width: 100vh;
+    height: 43vh;
+  }
+  
+  #main-section .img2 {
+    display: none;
+    background-image: url(assets/images/image-web-3-mobile.jpg);
+  }
+  
+  #main-section h1 {
+    color: black;
+    position: absolute;
+    width: 45vh;
+    bottom: 0vh;
+    margin: 0;
+    height: 22vh;
+    padding-bottom: 1vh;
+    font-size: 9vh;
+    line-height: 8vh;
+  }
+  
+  .text {
+    position: absolute;
+    width: 48.5vh;
+    right: 0;
+    bottom: 0;
+    height: 25vh;
+  }
+  
+  .text p {
+    color: #7c7a7f;
+    margin-bottom: 5vh;
+  }
+  
+  .text button {
+    color: white;
+    background-color: #f15d53;
+    width: 25vh;
+    height: 7vh;
+  }
+  
+  #main-section button:hover {
+    color: white;
+    background-color: #00001a;
+  }
+  
+  #main-section2 {
+    position: absolute;
+    right: 0;
+    width: 40vh;
+    top: 8vh;
+    height: 65.7vh;
+    background-color: #00001a;
+    padding: 3.1vh 4vh;
+  }
+  
+  .div2 {
+    border: 1px solid #8e8e97;
+  }
+
+  #main-section2 h1 {
+    color: #eda34c;
+    font-weight: bold;
+  }
+  
+  #main-section2 h4 {
+    color: white;
+  }
+  
+  #main-section2 h4:hover {
+    color: #eda34c;
+    cursor: pointer;
+  }
+  
+  #main-section2 p {
+    color: #8e8e97;
+  }
+  
+  #section2 {
+    position: relative;
+    height: 30vh;
+    margin-bottom: 8vh;
+  }
+  
+  .retro {
+    position: absolute;
+    display: flex;
+    height: 20vh;
+    bottom: 0;
+    width: 50vh;
+  }
+  
+  .retro h2 {
+    position: absolute;
+    left: 18vh;
+    color: #c4bec1;
+  }
+  
+  .retro h4 {
+    cursor: pointer;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .retro h4:hover {
+    color: #f15d53;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .retro p {
+    bottom: 0vh;
+    padding-top: 10vh;
+    padding-left: 2.2vh;
+    color: #8b888a;
+  }
+  
+  .laptop {
+    position: absolute;
+    display: flex;
+    height: 20vh;
+    bottom: 0;
+    left: 50vh;
+    width: 55vh;
+  }
+  
+  .laptop h2 {
+    position: absolute;
+    left: 18vh;
+    color: #c9c7c8;
+  }
+  
+  .laptop h4 {
+    cursor: pointer;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .laptop h4:hover {
+    color: #f15d53;
+    cursor: pointer;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .laptop p {
+    bottom: 0vh;
+    padding-top: 10vh;
+    padding-left: 2.2vh;
+    color: #aaa5a8;
+  }
+  
+  .gaming {
+    position: absolute;
+    display: flex;
+    height: 20vh;
+    bottom: 0;
+    right: 0;
+    width: 50vh;
+  }
+  
+  .gaming h2 {
+    position: absolute;
+    left: 18vh;
+    color: #c9c7c8;
+  }
+  
+  .gaming h4 {
+    cursor: pointer;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .gaming h4:hover {
+    color: #f15d53;
+    cursor: pointer;
+    position: absolute;
+    left: 18vh;
+    top: 6vh;
+  }
+  
+  .gaming p {
+    bottom: 0vh;
+    padding-top: 10vh;
+    padding-left: 2.2vh;
+    color: #8d888a;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: #9b9aa1;
+  }
+  
+  .attribution a:hover {
+    color: #f15d53;
+  }
+
+
+@media (max-width: 375px) {
+    body {
+      padding: 5vh ;
+    }
+
+    #nav-icon {
+      display: block;
+      float: right;
+     }
+/* 
+     .right-nav a{
+      display: block;
+      z-index: 999;
+  }
+    .right-nav {
+      position: fixed;
+        height: 100vh;
+        top: 0;
+        background: #e9e4e4;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    } */
+
+    ul {
+      border: 2px solid red;
+      height: 100%;
+      z-index: -1;
+    }
+
+    #main-section .img {
+      display: none;
+    }
+
+    #main-section .img2 {
+      display: block;
+      width: 330px;
+      height: 310px;
+      background-position: center;
+      background-size: cover;
+    }
+  
+    #main-section h1 {
+      margin-top: 2vh;
+      font-size: 8vh;
+      line-height: 7vh;
+      position: relative;
+      padding-bottom: 0;
+      width: 330px;
+    }
+  
+    .text {
+      height: auto;
+      position: relative;
+      width: 330px;
+    }
+  
+    .text button {
+       width: 60%;
+       height: 8vh;
+    }
+  
+    #main-section2 {
+      width: 289px;
+      top: 48vh;
+      position: relative;
+      height: 100%;
+    }
+  
+    #section2 {
+      border: 2px solid red;
+      margin-top: 135vh;
+      width: 330px;
+      height: 420px;
+      position: relative;
+    }
+    
+    .retro {
+      position: absolute;
+      top: 0;
+      width: 330px;
+    }
+
+    .laptop {
+      position: absolute;
+      top: 27vh;
+      left: 0;
+      width: 330px;
+    }
+
+    .gaming {
+      position: absolute;
+      bottom: 0;
+      width: 330px;
+    }
+
+    /* .retro,
+    .laptop,
+    .gaming {
+      width: 330px;
+      height: 25vh;
+      position: relative;
+      margin-bottom: 3vh;
+    } */
+  }
+
